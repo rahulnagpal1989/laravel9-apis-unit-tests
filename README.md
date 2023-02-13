@@ -12,7 +12,11 @@ While modern banks have evolved to serve a plethora of functions, at their core,
   - Framework: **Laravel**
 
 - Setup guide:
-  Under the laravel directory first you need to run the migration and seed dummy data by using this below command:
+  Under the laravel directory first you need to run the composer, migration and seed dummy data by using this below command:
+  ```
+  composer install
+  ```
+  After that install the migration
   ```
   php artisan migrate:fresh --seed
   ```
